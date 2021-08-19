@@ -1,8 +1,8 @@
 # About
 
-`dependently-typed` is a student-run club that aims to bring together programming language and compiler enthusiasts.
+`dependently-typed` is the programming languages (PL) club at Georgia Tech. It aims to bring together programming language and compiler enthusiasts.
 
-You do not need prior experience to join! Everyone is welcome :)
+You do not need prior experience to join! Undergraduate, graduate, and PhD students are all welcome :)
 
 ## Motivation
 
