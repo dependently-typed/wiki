@@ -21,5 +21,7 @@ pre {
   main {
     margin: 12px 5%;
     grid-template-columns: minmax(0px, auto);
+    grid-template-rows: min-content;
+    grid-gap: 0px;
   }
 }
