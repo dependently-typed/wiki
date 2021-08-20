@@ -10,40 +10,23 @@ main {
   grid-template-columns: 250px auto;
   grid-gap: 24px;
   line-height: 1.5;
+  font-size: 16px;
+}
+
+pre {
+  overflow: scroll;
 }
 
 @media (max-width: 500px) {
-  body {
-    font-size: 12px;
-  }
-
-  header {
-    padding: 8px 5%;  
-  }
-
-  header .title {
-    font-size: 16px;
-  }
-
-  header .title .logo {
-    height: 24px;
-  }
-
   main {
-    margin: 48px 5%;
-  }
-}
-
-@media (max-width: 300px) {
-  body {
-    font-size: 10px;
+    margin: 12px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-gap: 0px;
   }
 
-  header .title {
-    font-size: 12px;
-  }
-
-  header .title .logo {
-    height: 16px;
+  main > div {
+    width: 100%;
   }
 }
