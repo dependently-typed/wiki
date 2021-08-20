@@ -81,7 +81,7 @@
 
 "@dependently-typed/ui@https://github.com/dependently-typed/web-components":
   version "0.1.0"
-  resolved "https://github.com/dependently-typed/web-components#70096e5c2ca3f430d209597de3ab1d2248e8dc97"
+  resolved "https://github.com/dependently-typed/web-components#73ba56df1763b72cc7d7de45bbeb6394b87e411e"
   dependencies:
     lit "^2.0.0-rc.2"
 

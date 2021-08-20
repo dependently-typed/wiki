@@ -7,7 +7,7 @@ dt-theme-provider {
 main {
   margin: 48px 20%;
   display: grid;
-  grid-template-columns: 250px auto;
+  grid-template-columns: 250px minmax(0px, auto);
   grid-gap: 24px;
   line-height: 1.5;
   font-size: 16px;
@@ -17,16 +17,9 @@ pre {
   overflow: scroll;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   main {
     margin: 12px 5%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    grid-gap: 0px;
-  }
-
-  main > div {
-    width: 100%;
+    grid-template-columns: minmax(0px, auto);
   }
 }
