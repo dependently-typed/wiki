@@ -10,7 +10,6 @@ main {
   grid-template-columns: 250px minmax(0px, auto);
   grid-gap: 24px;
   line-height: 1.5;
-  font-size: 16px;
 }
 
 pre {
