@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
   });
 
   const md = new markdownIt({
-    html: true
+    html: true,
   });
 
   eleventyConfig.addPairedShortcode("markdown", (content) => {

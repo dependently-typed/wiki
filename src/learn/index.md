@@ -12,6 +12,8 @@ The [langjam](https://github.com/langjam/langjam/blob/main/resources.md) repo al
 
 ## Intermediate?
 
+Read some of this papers listed in [https://c9x.me/compile/bib/](https://c9x.me/compile/bib/)
+
 Highly recommend studying the architecture of existing open source projects. It will help you get better at navigating large codebases and will give you a sense of what techniques the industry is using.
 
 [The Architecture of Open Source Applications](https://www.aosabook.org/en/index.html) has a good list of codebases to study. Let your curiosity guide you through most of this process.
