@@ -16,6 +16,22 @@ pre {
   overflow: scroll;
 }
 
+blockquote {
+  border-left: 2px solid var(--color-gray);
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+.author {
+  color: var(--color-gray);
+}
+
+.meta {
+  font-size: var(--size-m);
+  color: var(--color-gray);
+  margin-bottom: var(--size-m);
+}
+
 @media (max-width: 1000px) {
   main {
     margin: 12px 5%;

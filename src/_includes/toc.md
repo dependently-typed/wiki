@@ -2,6 +2,7 @@
 - [About](/about)
   - [Governance](/about/governance)
   - [Code of Conduct](/about/code-of-conduct)
+- [Meetings](/meetings)
 - [Onboarding](/onboarding)
 - [Learn](/learn)
 - [Lore](/lore)
