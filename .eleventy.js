@@ -20,6 +20,19 @@ module.exports = function (eleventyConfig) {
     return md.render(content);
   });
 
+  eleventyConfig.addCollection("meeting_notes", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/meetings/*.md")
+      .filter(function (item) {
+        // This is done to filter out the home page (src/blog/index.md) from
+        // the collection
+        return "title" in item.data;
+      })
+      .filter(function (item) {
+        return !item.data.draft;
+      });
+  });
+
   return {
     dir: {
       input: "src",
