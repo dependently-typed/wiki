@@ -3,7 +3,6 @@
   - [Governance](/about/governance)
   - [Code of Conduct](/about/code-of-conduct)
 - [Meetings](/meetings)
-- [Onboarding](/onboarding)
 - [Learn](/learn)
 - [Lore](/lore)
   - [Story behind the name](/lore/explain-the-name)
